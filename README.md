@@ -88,7 +88,7 @@ Requisitos: Python 3.10 ou mais recente.
 
 ```bash
 # 1. clonar o repositório e entrar na pasta
-git clone <url-do-repositorio>
+git clone https://github.com/rmf060187/tech-challenge-nps.git
 cd tech-challenge-nps
 
 # 2. criar e ativar um ambiente virtual
