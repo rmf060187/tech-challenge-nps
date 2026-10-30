@@ -1,0 +1,30 @@
+{
+  "modelo": "Regressão logística (scikit-learn)",
+  "alvo": "flag_detrator (1 = nota de NPS abaixo de 7,0)",
+  "variaveis": [
+    "delivery_delay_days",
+    "customer_service_contacts",
+    "resolution_time_days",
+    "delivery_time_days",
+    "delivery_attempts",
+    "freight_value",
+    "order_value",
+    "discount_value",
+    "items_quantity",
+    "payment_installments",
+    "customer_age",
+    "customer_tenure_months",
+    "customer_region"
+  ],
+  "parametro_C": 0.1,
+  "corte_recomendado": 0.9,
+  "faixas_de_risco": {
+    "Baixo": "< 0,70",
+    "Médio": "0,70 a 0,90",
+    "Alto": ">= 0,90"
+  },
+  "auc_validacao_cruzada": 0.874,
+  "auc_teste": 0.839,
+  "precision_teste_no_corte": 0.968,
+  "recall_teste_no_corte": 0.649
+}
